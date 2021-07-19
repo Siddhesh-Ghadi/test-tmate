@@ -1,4 +1,1 @@
 os: linux
-arch: ppc64le
-dist: bionic
-script: free -h
