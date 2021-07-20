@@ -1,3 +1,1 @@
-os: linux
-arch: ppc64le
-script: free -h
+os:linux
