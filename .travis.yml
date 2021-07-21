@@ -1,6 +1,2 @@
 os: linux
 arch: ppc64le
-script:
-  - echo "sleeping for sometimes........."
-  - sleep 80s
-  - changes ........
