@@ -3,3 +3,4 @@ arch: ppc64le
 script:
   - echo "sleeping for sometimes........."
   - sleep 80s
+  - break the build
