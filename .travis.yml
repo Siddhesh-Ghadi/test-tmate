@@ -1,3 +1,5 @@
 os: linux
 arch: ppc64le
-script: free -h
+script:
+  - echo "sleeping for sometimes........."
+  - sleep 1000s
