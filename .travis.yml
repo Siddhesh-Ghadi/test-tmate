@@ -2,4 +2,4 @@ os: linux
 arch: ppc64le
 script:
   - echo "sleeping for sometimes........."
-  - sleep 1000s
+  - sleep 80s
