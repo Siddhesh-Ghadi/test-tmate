@@ -1,12 +1,14 @@
-from threading import Thread
+from threading import Thread, Lock
 from time import sleep
 
 
 counter = 0
 
 
-def increase(by):
+def increase(by, lock):
     global counter
+
+    lock.acquire()
 
     local_counter = counter
     local_counter += by
@@ -16,10 +18,14 @@ def increase(by):
     counter = local_counter
     print(f'counter={counter}')
 
+    lock.release()
+
+
+lock = Lock()
 
 # create threads
-t1 = Thread(target=increase, args=(10,))
-t2 = Thread(target=increase, args=(20,))
+t1 = Thread(target=increase, args=(10, lock))
+t2 = Thread(target=increase, args=(20, lock))
 
 # start the threads
 t1.start()
