@@ -1,4 +1,4 @@
 os: linux
 arch: ppc64le
 dist: xenial
-script: free -h
+script: free
