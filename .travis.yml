@@ -4,7 +4,9 @@ language: java
 jobs:
   include:
   - dist: xenial
-    script: ant
+    script: 
+      - ant
+      - tmate
   - dist: bionic
     script: ant
   - dist: focal
