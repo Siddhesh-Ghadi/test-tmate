@@ -1,5 +1,4 @@
 os: linux
-language: java
 arch: ppc64le
 jobs:
   include:
