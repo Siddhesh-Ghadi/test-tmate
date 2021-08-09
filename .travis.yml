@@ -1,4 +1,10 @@
 os: linux
-arch: ppc64le
-dist: xenial
-script: tmate
+language: java
+jobs:
+  include:
+  - dist: xenial
+    script: ant
+  - dist: bionic
+    script: ant
+  - dist: focal
+    script: ant
