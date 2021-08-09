@@ -1,12 +1,12 @@
 os: linux
 language: java
-# arch: ppc64le
+arch: ppc64le
 jobs:
   include:
   - dist: xenial
     script: 
+      - sudo apt install ant -y
       - ant
-      - tmate
   - dist: bionic
     script: ant
   - dist: focal
