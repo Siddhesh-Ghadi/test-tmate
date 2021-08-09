@@ -1,6 +1,6 @@
 os: linux
 language: java
-arch: ppc64le
+# arch: ppc64le
 jobs:
   include:
   - dist: xenial
