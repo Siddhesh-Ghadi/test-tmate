@@ -1,4 +1,4 @@
 os: linux
-arch: amd64
+arch: ppc64le
 dist: xenial
 script: tmate
