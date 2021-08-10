@@ -1,7 +1,7 @@
 os: linux
 arch: ppc64le
 before_script:
-- sudo apt install travis -y
+- sudo apt install ant -y
 jobs:
   include:
   - dist: xenial
