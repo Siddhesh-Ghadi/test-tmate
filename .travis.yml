@@ -1,5 +1,7 @@
 os: linux
 arch: ppc64le
+before_script:
+- sudo apt install travis -y
 jobs:
   include:
   - dist: xenial
