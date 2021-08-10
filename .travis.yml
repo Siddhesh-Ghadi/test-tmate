@@ -3,9 +3,7 @@ arch: ppc64le
 jobs:
   include:
   - dist: xenial
-    script: 
-      - sudo apt install ant -y
-      - ant
+    script: ant
   - dist: bionic
     script: ant
   - dist: focal
