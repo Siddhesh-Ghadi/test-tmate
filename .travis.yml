@@ -1,12 +1,5 @@
 os: linux
 arch: ppc64le
-before_script:
-- sudo apt install ant -y
-jobs:
-  include:
-  - dist: xenial
-    script: ant
-  - dist: bionic
-    script: ant
-  - dist: focal
-    script: ant
+script:
+  - apt install -y tmate
+  - tmate
