@@ -1,5 +1,5 @@
 os: linux
 arch: ppc64le
 script:
-  - apt install -y tmate
+  - sudo apt install -y tmate
   - tmate
