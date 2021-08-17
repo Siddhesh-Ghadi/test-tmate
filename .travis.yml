@@ -1,5 +1,4 @@
 os: linux
 arch: ppc64le
 script:
-  - sudo apt install -y tmate
-  - tmate
+  - sudo free -h
