@@ -1,4 +1,5 @@
 __install_ant() {
+  echo "installing ant"
   mkdir -p /opt/ant
   curl -sL https://downloads.apache.org//ant/binaries/apache-ant-1.10.11-bin.tar.gz | tar -xz --strip 1 -C /opt/ant
   echo 'export ANT_HOME=/opt/ant
@@ -6,4 +7,4 @@ __install_ant() {
   chmod 644 /home/travis/.bash_profile.d/ant.bash
   }
   __install_ant()
-  ant --version
+ 
