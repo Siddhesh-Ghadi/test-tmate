@@ -5,6 +5,4 @@ arch:
   - arm
 distro: focal
 script:
-  - which ls
-#   - bash file.sh
-#   - ant
+  - bash file.sh
