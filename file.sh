@@ -8,5 +8,6 @@ __install_ant() {
   chmod 644 /home/travis/.bash_profile.d/ant.bash
   chown travis: /home/travis/.bash_profile.d/ant.bash
   source /home/travis/.bash_profile.d/ant.bash
+  cat /home/travis/.bash_profile.d/ant.bash
 }
 __install_ant
