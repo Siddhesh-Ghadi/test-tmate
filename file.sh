@@ -6,7 +6,7 @@ __install_ant() {
   echo 'export ANT_HOME=/opt/ant
   export PATH=${ANT_HOME}/bin:${PATH}' > /home/travis/.bash_profile.d/ant.bash
   chmod 644 /home/travis/.bash_profile.d/ant.bash
-  source /home/travis/.bash_profile.d/ant.bash
   chown travis: /home/travis/.bash_profile.d/ant.bash
+  source /home/travis/.bash_profile.d/ant.bash
 }
 __install_ant
