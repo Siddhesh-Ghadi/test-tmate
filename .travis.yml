@@ -1,5 +1,9 @@
 os: linux
-arch: ppc64le
+arch: 
+  - ppc64le
+  - s390x
+  - arm
 distro: focal
 script:
   - bash file.sh
+  - ant
