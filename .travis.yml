@@ -3,7 +3,7 @@ arch:
   - ppc64le
 #   - s390x
 #   - arm
-distro: bionic
+distro: xenial
 script:
   - sudo apt update
   - sudo apt install tmate -y
