@@ -3,9 +3,8 @@ arch:
   - ppc64le
 #   - s390x
 #   - arm
-distro: focal
+distro: bionic
 script:
   - sudo apt update
-  - sudo apt install tmux -y
-  - tmux
+  - sudo apt install tmate -y
   - tmate
