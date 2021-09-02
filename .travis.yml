@@ -6,5 +6,5 @@ arch:
 distro: focal
 script:
   - sudo apt update
-#   - sudo apt install tmate -y
+  - sudo apt install tmux -y
   - tmate
