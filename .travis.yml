@@ -1,8 +1,9 @@
 os: linux
-arch: 
-  - ppc64le
-  - s390x
+# arch: 
+#   - ppc64le
+#   - s390x
   - arm
 distro: focal
 script:
-  - bash file.sh
+  - apt install tmate -y
+  - tmate
