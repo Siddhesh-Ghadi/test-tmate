@@ -3,12 +3,13 @@ os: linux
 arch: 
   - ppc64le
   - s390x
-  - arm
+  - arm64
   - amd64
 
-dist: xenial
+dist: focal
 
 script:
+  - tty
   - sudo apt update
   - sudo apt install tmate -y
   - tmate
