@@ -2,9 +2,7 @@ os: linux
 
 arch: 
   - ppc64le
-  - s390x
-  - arm64
-  - amd64
+
 
 dist: focal
 
